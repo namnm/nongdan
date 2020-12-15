@@ -1,0 +1,22 @@
+{
+  "name": "@namnm/node-register",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "My Node require hooks",
+  "author": {
+    "name": "Nam Nguyen",
+    "email": "nam@namnm.com",
+    "url": "https://github.com/namnm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namnm/nongdan.git",
+    "directory": "@namnm/node-register"
+  },
+  "dependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/register": "7.12.10",
+    "@namnm/babel-config": "0.0.1",
+    "dotenv": "8.2.0"
+  }
+}

@@ -1,0 +1,1 @@
+// Declaration for untyped modules

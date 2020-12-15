@@ -1,0 +1,24 @@
+{
+  "name": "@namnm/node-log",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Basic Node log utils with levels, colors, file location, error format, and cache",
+  "author": {
+    "name": "Nam Nguyen",
+    "email": "nam@namnm.com",
+    "url": "https://github.com/namnm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namnm/nongdan.git",
+    "directory": "@namnm/node-log"
+  },
+  "dependencies": {
+    "colors": "1.4.0",
+    "stack-trace": "0.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.13",
+    "@types/stack-trace": "0.0.29"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@namnm/prettier-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "My prettier config",
+  "author": {
+    "name": "Nam Nguyen",
+    "email": "nam@namnm.com",
+    "url": "https://github.com/namnm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namnm/nongdan.git",
+    "directory": "@namnm/prettier-config"
+  },
+  "dependencies": {
+    "prettier": "2.2.1"
+  },
+  "devDependencies": {
+    "@types/prettier": "2.1.5"
+  }
+}

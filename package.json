@@ -1,0 +1,39 @@
+{
+  "name": "namnm",
+  "version": "0.0.0-locked",
+  "private": true,
+  "scripts": {
+    "ts": "tsc && type-coverage",
+    "format": "eslint --ignore-path=.gitignore --ext=.js,.ts,.tsx --fix . && prettier --loglevel=error --ignore-path=.gitignore --write ."
+  },
+  "workspaces": [
+    "config/*",
+    "node/*"
+  ],
+  "devDependencies": {
+    "@namnm/eslint-config": "0.0.1",
+    "@namnm/prettier-config": "0.0.1",
+    "@namnm/node-register": "0.0.1",
+    "husky": "4.3.5",
+    "lint-staged": "10.5.3",
+    "type-coverage": "2.14.6",
+    "typescript": "4.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && yarn check-all"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{html,css,scss,json,md,yml}": "prettier --write"
+  },
+  "typeCoverage": {
+    "atLeast": 100,
+    "ignoreCatch": true,
+    "strict": true
+  }
+}

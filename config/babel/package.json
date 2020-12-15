@@ -1,0 +1,23 @@
+{
+  "name": "@namnm/babel-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "My babel config",
+  "author": {
+    "name": "Nam Nguyen",
+    "email": "nam@namnm.com",
+    "url": "https://github.com/namnm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namnm/nongdan.git",
+    "directory": "@namnm/babel-config"
+  },
+  "dependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/plugin-proposal-optional-chaining": "7.12.7",
+    "@babel/plugin-syntax-class-properties": "7.12.1",
+    "@babel/plugin-transform-modules-commonjs": "7.12.1",
+    "@babel/preset-typescript": "7.12.7"
+  }
+}
